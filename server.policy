@@ -1,0 +1,5 @@
+grant{
+        permission java.net.SocketPermission "*:1024-", "connect, accept, resolve, listen" ;
+	permission java.io.FilePermission "-" , "read, write" ;
+
+};

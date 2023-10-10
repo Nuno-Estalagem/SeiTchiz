@@ -1,0 +1,5 @@
+grant {
+    permission java.net.SocketPermission "*:45678", "connect, accept, resolve";
+    permission java.io.FilePermission "<<ALL FILES>>", "read ,write";
+    
+};
